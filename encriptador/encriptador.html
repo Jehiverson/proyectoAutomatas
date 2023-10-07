@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link href="../css/menu.css" rel="stylesheet" />
+        <link href="../css/encriptador.css" rel="stylesheet" />
+    </head>
+<body>
+    <header>
+        <ul>
+            <li>                
+                <a class="menu-button" href="../calculadora/calculadora.html"><i class="fas fa-calculator"></i> Calculadora</a>
+                <a class="menu-button" href="../calendario/calendario.html"><i class="fas fa-calendar"></i> Calendario</a>
+                <a class="menu-button" href="encriptador/encriptador.html"><i class="fas fa-list"></i> Encriptador</a>
+                <a class="menu-button" href="ahorcado.html"><i class="fas fa-gamepad"></i> Ahorcado</a>
+            </li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="box">
+            <textarea id="textin" name="textbox1" class="textarea" placeholder="Ingrese texto"></textarea>
+            <div class="button-container">
+                <button id="encrypt" class="button">Encriptar</button>
+                <button id="decrypt" class="button">Desencriptar</button>
+            </div>
+        </div>
+        <div class="box">
+            <textarea name="stringout" id="textout" class="textarea" placeholder="Texto encriptado"></textarea>
+            <div class="button-container">
+                <button id="copyBtn" class="button">Copiar</button>
+                <button id="cleanBtn" class="button">Limpiar</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../scripts/encriptador.js"></script>
+</html>

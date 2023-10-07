@@ -1,0 +1,32 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 45%;
+    margin: 10px;
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button {
+    width: 48%;
+    padding: 5px;
+    text-align: center;
+    background-color: #255c81;
+    color: #fff;
+    cursor: pointer;
+}
